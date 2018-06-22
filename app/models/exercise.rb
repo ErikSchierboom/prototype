@@ -22,7 +22,7 @@ class Exercise < ApplicationRecord
 
   # BETA
   def download_command
-    "nextercism download #{slug} --track=#{track.slug}"
+    "mentorcism download #{slug} --track=#{track.slug}"
   end
 
   def side?
